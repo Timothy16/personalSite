@@ -198,10 +198,6 @@
     /* line-height: 49px; */
     color: #FFFFFF;
 }
-.reduce img{
- /* width: 80px;
- height: 80px; */
-}
 .reduce{
     letter-spacing: 4rem;
     /* margin-top: 1rem; */
@@ -264,9 +260,6 @@
 .arrow-up{
     position: relative;
     top: -1rem;
-}
-.l-left{
-    /* margin-left: 1rem */
 }
 .projects{
     font-style: normal;
@@ -425,6 +418,13 @@
     .name-1{
         font-size: 4rem;
     }
+    *{
+        overflow-x: hidden;
+    }
+    .img-down{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
     .name-2{
         font-size: 4rem;
     }
@@ -500,6 +500,13 @@
     .name-1{
         font-size: 4rem;
     }
+    *{
+        overflow-x: hidden;
+    }
+    .img-down{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
     .name-2{
         font-size: 4rem;
     }
@@ -574,6 +581,19 @@
 @media only screen and (min-width: 710px) and (max-width: 996px) {
     .name-1{
         font-size: 4rem;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    .name{
+        margin-top: 3rem;
+    }
+    .hero{
+        margin-bottom: 3rem;
+    }
+    .img-down{
+        margin-top: 5rem;
+        /* margin-bottom: 3rem; */
     }
     .name-2{
         font-size: 4rem;
