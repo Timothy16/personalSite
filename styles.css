@@ -6,7 +6,7 @@
     font-family: "Montserrat", sans-serif;
 }
 #content{
-    display: none;
+    /* display: none; */
 }
 .blur{
     filter: brightness(0.80) !important;
@@ -637,7 +637,7 @@
         padding: 2rem 0 2rem 0;
     }
     .testi-bg-2{
-        height: auto !important;
+        height: 62vh !important;
         /* padding-bottom: 2rem; */
     }
     .img-testi{
@@ -647,6 +647,7 @@
     }
     .testimony{
         font-size: 1.3;
+        line-height: 40px;
     }
     .name-testi{
         margin-top: .5rem;
